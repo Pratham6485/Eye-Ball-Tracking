@@ -1,0 +1,23 @@
+Creating new environment
+
+-> conda create --name eye_det python=3.6
+
+Activating the environment
+
+-> conda activate eye_det
+
+-> cd (eye ball directory)
+
+-> pip install opencv-python
+
+-> pip install opencv-contrib-python
+
+-> conda install -c conda-forge dlib
+
+Running the main python script
+
+-> python main.py
+
+Checking the python version
+
+-> python -V
